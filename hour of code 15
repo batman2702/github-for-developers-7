@@ -1,0 +1,14 @@
+l,p,s,c=map(int,raw_input().split())
+x=l*4+p
+if (x%2==0):
+	r=x
+else:
+	r=x-1
+b=2*r
+a=b+s
+if (a>c):
+	print c*4
+else:
+	print a*4
+
+
